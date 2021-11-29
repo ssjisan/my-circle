@@ -58,7 +58,7 @@ export default function AllComments() {
           justifyContent="center"
         >
           {profiles.map((data, index) => (
-            <Grid item xs={6} md={3}>
+            <Grid item xs={12} md={4}>
               <Card
                 style={{
                   borderRadius: "12px",
@@ -103,7 +103,7 @@ export default function AllComments() {
         </Grid>
         <Grid container spacing={2} style={{ padding: "25px" }}>
           {comments.map((data, index) => (
-            <Grid item xs={6} md={12}>
+            <Grid item xs={12} md={12}>
               <Typography variant="caption" style={{ color: "#AEB7B6" }}>
                 {data.email}
               </Typography>

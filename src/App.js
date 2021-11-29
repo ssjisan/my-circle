@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Comments from "./Components/Component/Comments";
+import Comments from "./Components/Comments";
 import Post from "./Components/Post";
 import Profile from "./Components/Profile";
 

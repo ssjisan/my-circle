@@ -57,7 +57,7 @@ export default function AllPost() {
           justifyContent="center"
         >
           {profiles.map((data, index) => (
-            <Grid item xs={6} md={3}>
+            <Grid item xs={12} md={4}>
               <Card
                 style={{
                   borderRadius: "12px",
